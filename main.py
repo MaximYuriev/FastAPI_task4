@@ -5,7 +5,7 @@ from datetime import datetime
 from public.hospital import hospital_router
 from public.db import create_tables
 
-#create_tables()
+create_tables()
 
 app = FastAPI()
 app.include_router(hospital_router)
